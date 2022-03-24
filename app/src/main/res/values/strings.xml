@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">First Aid UI Design</string>
+    <string name="first_aid_instructions_for_covid_19">First aid instructions for COVID-19</string>
+    <string name="covid_19_severity">COVID-19 Severity</string>
+    <string name="asymptomatic">Asymptomatic</string>
+    <string name="learn_more_about_this">Learn more about this</string>
+    <string name="mild">Mild</string>
+    <string name="first_aid">First Aid</string>
+    <string name="moderate">Moderate</string>
+    <string name="severe">Severe</string>
 </resources>
