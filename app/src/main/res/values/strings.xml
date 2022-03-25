@@ -8,4 +8,6 @@
     <string name="first_aid">First Aid</string>
     <string name="moderate">Moderate</string>
     <string name="severe">Severe</string>
+    <string name="read_more">Read More</string>
+    <string name="critical">Critical</string>
 </resources>
