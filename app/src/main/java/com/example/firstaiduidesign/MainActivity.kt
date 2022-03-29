@@ -1,5 +1,6 @@
 package com.example.firstaiduidesign
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Toast
@@ -13,6 +14,11 @@ class MainActivity : AppCompatActivity() {
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        binding.cardAsymptomatic.setOnClickListener { Toast.makeText(it.context, "Asymptomatic", Toast.LENGTH_SHORT).show() }
+        binding.cardCovidInitialFirstAid.setOnClickListener {
+            val toFirstAidInfo: Intent = Intent(this, FirstAidInformationActivity::class.java)
+            startActivity(toFirstAidInfo)
+        }
+
+
     }
 }

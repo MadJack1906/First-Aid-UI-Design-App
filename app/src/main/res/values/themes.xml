@@ -29,6 +29,13 @@
         <item name="contentPadding">16dp</item>
     </style>
 
+    <style name="cardPlainStyle" parent="Widget.MaterialComponents.CardView">
+        <item name="cardBackgroundColor">@color/white</item>
+        <item name="android:textColor">@color/onPrimaryColor</item>
+        <item name="cardCornerRadius">12dp</item>
+        <item name="contentPadding">16dp</item>
+    </style>
+
     <style name="cardCovidSeverityStyle" parent="Widget.MaterialComponents.CardView">
         <item name="cardBackgroundColor">@color/primaryContainer</item>
         <item name="cardCornerRadius">12dp</item>

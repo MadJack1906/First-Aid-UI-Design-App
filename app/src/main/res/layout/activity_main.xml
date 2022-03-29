@@ -15,18 +15,10 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
-        <Toolbar
+        <com.google.android.material.appbar.MaterialToolbar
             android:layout_width="match_parent"
-            android:layout_height="wrap_content">
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="First Aid"
-                android:textColor="@color/black"
-                android:textSize="22sp"
-                android:textStyle="bold" />
-        </Toolbar>
+            android:layout_height="?attr/actionBarSize"
+            app:title="First Aid Information Center"/>
     </com.google.android.material.appbar.AppBarLayout>
 
     <androidx.constraintlayout.widget.ConstraintLayout
@@ -38,7 +30,7 @@
         app:layout_constraintTop_toBottomOf="@+id/appBarLayout">
 
         <com.google.android.material.card.MaterialCardView
-            android:id="@+id/materialCardView"
+            android:id="@+id/cardCovidInitialFirstAid"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             style="@style/cardStyle"
@@ -104,7 +96,7 @@
             android:layout_marginVertical="12dp"
             android:text="@string/covid_19_severity"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/materialCardView" />
+            app:layout_constraintTop_toBottomOf="@+id/cardCovidInitialFirstAid" />
 
         <com.google.android.material.card.MaterialCardView
             android:id="@+id/cardAsymptomatic"
