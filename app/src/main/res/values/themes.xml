@@ -32,5 +32,17 @@
     <style name="cardCovidSeverityStyle" parent="Widget.MaterialComponents.CardView">
         <item name="cardBackgroundColor">@color/primaryContainer</item>
         <item name="cardCornerRadius">12dp</item>
+        <item name="android:layout_marginTop">8dp</item>
+    </style>
+
+    <style name="matBtnRightArrow">
+        <item name="icon">@drawable/ic_baseline_navigate_next_24</item>
+        <item name="iconPadding">0dp</item>
+        <item name="iconGravity">textStart</item>
+        <item name="cornerRadius">100dp</item>
+        <item name="android:layout_marginEnd">8dp</item>
+        <item name="android:clickable">false</item>
+        <item name="android:backgroundTint">@color/onPrimaryContainer</item>
+        <item name="elevation">0dp</item>
     </style>
 </resources>

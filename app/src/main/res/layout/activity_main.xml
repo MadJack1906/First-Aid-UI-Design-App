@@ -43,7 +43,6 @@
             android:layout_height="wrap_content"
             style="@style/cardStyle"
             app:cardElevation="5dp"
-            android:layout_margin="5dp"
             android:clickable="true"
             android:focusable="true"
             app:layout_constraintEnd_toEndOf="parent"
@@ -163,12 +162,7 @@
                 <com.google.android.material.button.MaterialButton
                     android:layout_width="24dp"
                     android:layout_height="35dp"
-                    app:icon="@drawable/ic_baseline_navigate_next_24"
-                    app:iconPadding="0dp"
-                    app:iconGravity="textStart"
-                    app:cornerRadius="100dp"
-                    android:layout_marginEnd="8dp"
-                    android:clickable="false"
+                    style="@style/matBtnRightArrow"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintTop_toTopOf="parent" />
@@ -231,12 +225,7 @@
                 <com.google.android.material.button.MaterialButton
                     android:layout_width="24dp"
                     android:layout_height="35dp"
-                    android:layout_marginEnd="8dp"
-                    app:cornerRadius="100dp"
-                    app:icon="@drawable/ic_baseline_navigate_next_24"
-                    app:iconGravity="textStart"
-                    app:iconPadding="0dp"
-                    android:clickable="false"
+                    style="@style/matBtnRightArrow"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintTop_toTopOf="parent" />
@@ -299,12 +288,7 @@
                 <com.google.android.material.button.MaterialButton
                     android:layout_width="24dp"
                     android:layout_height="35dp"
-                    android:layout_marginEnd="8dp"
-                    android:clickable="false"
-                    app:cornerRadius="100dp"
-                    app:icon="@drawable/ic_baseline_navigate_next_24"
-                    app:iconGravity="textStart"
-                    app:iconPadding="0dp"
+                    style="@style/matBtnRightArrow"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintTop_toTopOf="parent" />
@@ -367,12 +351,7 @@
                 <com.google.android.material.button.MaterialButton
                     android:layout_width="24dp"
                     android:layout_height="35dp"
-                    android:layout_marginEnd="8dp"
-                    android:clickable="false"
-                    app:cornerRadius="100dp"
-                    app:icon="@drawable/ic_baseline_navigate_next_24"
-                    app:iconGravity="textStart"
-                    app:iconPadding="0dp"
+                    style="@style/matBtnRightArrow"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintTop_toTopOf="parent" />
@@ -435,12 +414,7 @@
                 <com.google.android.material.button.MaterialButton
                     android:layout_width="24dp"
                     android:layout_height="35dp"
-                    android:layout_marginEnd="8dp"
-                    android:clickable="false"
-                    app:cornerRadius="100dp"
-                    app:icon="@drawable/ic_baseline_navigate_next_24"
-                    app:iconGravity="textStart"
-                    app:iconPadding="0dp"
+                    style="@style/matBtnRightArrow"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintTop_toTopOf="parent" />
